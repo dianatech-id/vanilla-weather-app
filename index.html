@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link href="PruebaProject.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <form class="container text-center" id="search-form">
+            <div class="row">
+              <div class="col-2"><h5>Weather App</h5></div>
+              <div class="col-5">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your city"
+                  id="city-name"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="form-control btn btn-primary shadow-sn"
+                />
+              </div>
+
+              <div class="col-2">
+                <button class="$índigo-200" id="current-button">Current</button>
+              </div>
+            </div>
+          </form>
+
+          <br />
+          <div class="row text-center">
+            <div class="col-5"><h1 id="city"></h1></div>
+            <div class="col-4">
+              <h2>
+                <span class="temperature" id="temperature"></span
+                ><span class="units"
+                  >°C <img src="" alt="Clear" id="icon"
+                /></span>
+              </h2>
+            </div>
+            <div class="col-3">
+              <ul>
+                <li class="description">
+                  <strong id="description">Clear</strong>
+                </li>
+                <li class="lista"><strong id="date">Sunday 10:00</strong></li>
+                <li class="lista">
+                  <strong>Humidity <span id="humidity"></span>%</strong>
+                </li>
+                <li class="lista">
+                  <strong>Wind <span id="wind"></span>km/h</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+
+          <br />
+          <div class="container text-center">
+            <div class="row">
+              <div class="col"></div>
+              <div class="col-2">
+                <div class="card" style="width: 8rem; height: 10rem">
+                  <div class="card-body">
+                    <h3 class="card-text">Monday</h3>
+                  </div>
+                  <h4 class="fa-solid fa-cloud-rain fa-2x">⛅</h4>
+                  <div class="card-body">
+                    <h6 class="card-text">3° / -2°</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2">
+                <div class="card" style="width: 8rem; height: 10rem">
+                  <div class="card-body">
+                    <h3 class="card-text">Tuesday</h3>
+                  </div>
+                  <h4 class="fa-solid fa-cloud-rain fa-2x">⛅</h4>
+                  <div class="card-body">
+                    <h6 class="card-text">6° / -1</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2">
+                <div class="card" style="width: 8rem; height: 10rem">
+                  <div class="card-body">
+                    <h3 class="card-text">Wednesday</h3>
+                  </div>
+                  <h4 class="fa-solid fa-cloud-rain fa-2x">⛅</h4>
+                  <div class="card-body">
+                    <h6 class="card-text">1°/ -13°</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2">
+                <div class="card" style="width: 8rem; height: 10rem">
+                  <div class="card-body">
+                    <h3 class="card-text">Thursday</h3>
+                  </div>
+                  <h4 class="fa-solid fa-cloud-rain fa-2x">⛅</h4>
+                  <div class="card-body">
+                    <h6 class="card-text">-4° / -6°</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2">
+                <div class="card" style="width: 8rem; height: 10rem">
+                  <div class="card-body">
+                    <h3 class="card-text">Friday</h3>
+                  </div>
+                  <h4 class="fa-solid fa-cloud-rain fa-2x">🌧️</h4>
+                  <div class="card-body">
+                    <h6 class="card-text">7° / 1°</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col"></div>
+            </div>
+          </div>
+        </div>
+        <a href="" target="_blank">Coded by Diana Muñoz</a>
+      </div>
+    </div>
+
+    <script src="PruebaProject.js"></script>
+  </body>
+</html>
