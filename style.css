@@ -1,0 +1,142 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+  margin: 100px auto;
+  max-width: 70%;
+  background-image: url(images.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.shadow-sn {
+  text-align: center;
+  color: white;
+  background: #8046df;
+  border: #8046df;
+  display: block;
+  font-size: 15px;
+  box-shadow: 5px 5px 10px rgb(168, 165, 165);
+  transition: all 200ms ease-in-out;
+}
+
+.shadow-sn:hover {
+  background: #a47fe0;
+  color: white;
+  cursor: pointer;
+  border: #a47fe0;
+}
+
+h5 {
+  color: #8046df;
+  text-align: center;
+  font-weight: 900;
+}
+
+.form-control {
+  border: 1px solid #8046df;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #878688;
+}
+
+strong {
+  font-size: 15px;
+}
+
+hr {
+  border: 2px solid #240555;
+}
+
+h3 {
+  color: #878688;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 35px;
+}
+
+h6 {
+  color: #878688;
+}
+
+.card {
+  border: 2px solid #8046df;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  width: 900px;
+}
+
+button {
+  text-align: center;
+  color: white;
+  background: #a47fe0;
+  border: #a47fe0;
+  display: block;
+  font-size: 15px;
+  box-shadow: 5px 5px 10px rgb(168, 165, 165);
+  transition: all 200ms ease-in-out;
+  padding: 7px 30px;
+  margin: 0 auto 30px;
+  display: block;
+  border-radius: 7px;
+}
+
+button:hover {
+  background: #8046df;
+  border: #8046df;
+  color: white;
+  cursor: pointer;
+}
+
+.row .border-dark-subtle {
+  border: 1px solid #a47fe0;
+  background: #a47fe0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.description {
+  display: block;
+  margin-bottom: 0;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  color: #a47fe0;
+}
+
+li.lista {
+  display: block;
+  text-align: left;
+  color: #878688;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: #8046df;
+}
+
+img {
+  width: 65px;
+  height: 65px;
+  margin-left: 0;
+  padding: 0;
+  contain-intrinsic-size: 70px;
+}
